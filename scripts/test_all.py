@@ -7,7 +7,7 @@ class TestAll():
         assert 1
 
     def test_3(self):
-        assert 0
+        assert 1
         
     def test_3(self):
-        assert 1
+        assert 0
