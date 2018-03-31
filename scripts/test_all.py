@@ -1,4 +1,5 @@
 class TestAll():
+    
 
     def test_1(self):
         assert 1
