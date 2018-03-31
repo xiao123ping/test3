@@ -1,0 +1,52 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1522497086701" stop="1522497086752">
+  <name>test_all</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1522497086701" status="passed" stop="1522497086704">
+      <name>TestAll.test_1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9724-MainThread"/>
+        <label name="host" value="DESKTOP-SRM2MDH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1522497086704" status="passed" stop="1522497086705">
+      <name>TestAll.test_2</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9724-MainThread"/>
+        <label name="host" value="DESKTOP-SRM2MDH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1522497086706" status="failed" stop="1522497086752">
+      <name>TestAll.test_3</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test_all.TestAll object at 0x000002452DA42208&gt;
+
+    def test_3(self):
+&gt;       assert 0
+E       assert 0
+
+scripts\test_all.py:10: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9724-MainThread"/>
+        <label name="host" value="DESKTOP-SRM2MDH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

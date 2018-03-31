@@ -8,3 +8,4 @@ class TestAll():
 
     def test_3(self):
         assert 0
+
